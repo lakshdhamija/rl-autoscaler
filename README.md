@@ -1,2 +1,3 @@
-# HAI-RL-environment
-Reinforcement learning environment for the Humanitarians AI RL Environments project
+# rl-autoscaler
+
+RL autoscaler that learns to scale before traffic spikes, compared against threshold autoscaling. Humanitarians AI RL Environments project.
