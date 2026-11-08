@@ -1,0 +1,38 @@
+{
+  "source": "Azure Functions Trace 2019, https://github.com/Azure/AzurePublicDataset",
+  "license": "CC-BY 4.0",
+  "citation": "Shahrad et al., Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider, USENIX ATC 2020",
+  "content": "Requests per minute per app (sum of its HTTP-triggered functions), 14 days, minute 0 = day 1 00:00",
+  "selection": "HTTP traffic on all 14 days, mean >= 500 requests/minute, coefficient of variation >= 0.15, < 5% zero minutes, exact duplicates removed",
+  "train_apps": [
+    "16cc0b0d",
+    "1eecc3b4",
+    "38ee9fad",
+    "43f752c7",
+    "73c0b04d",
+    "782b4e57",
+    "9aba8d35",
+    "c4af8eb4",
+    "d81e1bb6",
+    "e4bb4704",
+    "e593dfd5",
+    "e7a26f46",
+    "e8cb71e1",
+    "ec941895"
+  ],
+  "test_apps": [
+    "58a41880",
+    "5df1b744",
+    "8c2b9304",
+    "a4a1ebab",
+    "cfccc67d"
+  ],
+  "train_days": [
+    1,
+    10
+  ],
+  "test_days": [
+    11,
+    14
+  ]
+}
