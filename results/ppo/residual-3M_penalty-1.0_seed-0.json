@@ -1,0 +1,17 @@
+{
+  "kind": "residual",
+  "penalty": 1.0,
+  "seed": 0,
+  "steps": 3000000,
+  "train_minutes": 27.0,
+  "test_days": {
+    "cost_per_day": 29180.35714285714,
+    "late_pct": 0.5497478931462341,
+    "dropped_pct": 0.036783572477484885
+  },
+  "test_apps": {
+    "cost_per_day": 26523.69230769231,
+    "late_pct": 0.668361946073974,
+    "dropped_pct": 0.019794414320558455
+  }
+}

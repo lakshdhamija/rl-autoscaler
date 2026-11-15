@@ -1,0 +1,17 @@
+{
+  "kind": "plain",
+  "penalty": 1.0,
+  "seed": 0,
+  "steps": 10000000,
+  "train_minutes": 82.9,
+  "test_days": {
+    "cost_per_day": 47136.0,
+    "late_pct": 0.15166028335579276,
+    "dropped_pct": 0.006770038905467461
+  },
+  "test_apps": {
+    "cost_per_day": 39845.24615384615,
+    "late_pct": 0.5222051034663662,
+    "dropped_pct": 0.025924050428669198
+  }
+}

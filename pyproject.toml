@@ -13,6 +13,7 @@ dependencies = ["gymnasium>=1.0", "numpy>=1.26"]
 [project.optional-dependencies]
 dev = ["pytest>=8", "matplotlib>=3.8"]
 data = ["pandas>=2"]
+train = ["stable-baselines3>=2.3", "modal>=1.0"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
